@@ -47,3 +47,16 @@ FROM employees as emp
 	ON (emp.emp_no = t.emp_no)
 WHERE (de.to_date = '9999-01-01') AND (emp.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp.emp_no;
+
+--TWO ADDITIONAL QUERIES FOR SUMMARY
+-- count of mentorship eligibility
+SELECT COUNT(title), title
+INTO count_mentorship_eligibility
+FROM mentorship_eligibility
+GROUP BY title 
+ORDER BY COUNT(title) DESC;
+
+SELECT * FROM salaries
+ORDER BY to_date DESC;
+
+
