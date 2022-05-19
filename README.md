@@ -9,7 +9,6 @@ This project was created to organize retiree data for the company Pewlett Hackar
 
 ### Retiring Titles
 * The data show that 72,458 people total are eligible for retirement.
-pic of count vs title 
 * 36,291 of these employees are some kind of engineer, which requires extensive education and training. 36,167 of these employees are general staff of some kind, depending on the type of work, these could be entry level positions that can be trained on the job.
 
 ![image](https://user-images.githubusercontent.com/98570777/168537082-7afbdb7f-4cd0-4758-8a75-143ce2e811f2.png)
